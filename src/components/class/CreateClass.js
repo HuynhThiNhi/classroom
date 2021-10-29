@@ -51,11 +51,11 @@ const CreateClass = ({ createDialog, setCreateDialog, setCreatedClasses }) => {
 
       setCreatedClasses(data);
 
-      setClassName = ""
-      setRoom = ""
-      setSection = ""
-      setSubject = ""
-      
+      setClassName("")
+      setRoom("")
+      setSection("")
+      setSubject("")
+
     } catch (error) {
       alert(`Cannot create class - ${error.message}`);
     }
