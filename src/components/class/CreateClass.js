@@ -45,11 +45,17 @@ const CreateClass = ({ createDialog, setCreateDialog, setCreatedClasses }) => {
 
       handleClose();
       alert("Classroom created successfully!");
-
+      
       const newClasses = await fetch("https://classroom-api-1712636.herokuapp.com/classes");
       const data = await newClasses.json();
 
       setCreatedClasses(data);
+
+      setClassName = ""
+      setRoom = ""
+      setSection = ""
+      setSubject = ""
+      
     } catch (error) {
       alert(`Cannot create class - ${error.message}`);
     }
