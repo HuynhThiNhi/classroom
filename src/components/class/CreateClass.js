@@ -34,7 +34,7 @@ const CreateClass = ({ createDialog, setCreateDialog, setCreatedClasses }) => {
         owner: "Nguyen Huy Khanh",
       };
 
-      const res = await fetch("http://localhost:3000/classes", {
+      const res = await fetch("https://classroom-api-1712636.herokuapp.com/classes", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
