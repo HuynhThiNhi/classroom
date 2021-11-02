@@ -38,11 +38,11 @@ const Navbar = ({setCreatedClasses}) => {
             <MenuIcon />
           </IconButton>
           <img
-            src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png"
+            src="https://lever-client-logos.s3-us-west-2.amazonaws.com/8bc52d65-456a-40f9-88a9-2d9a60d5d8b5-1594875109145.png"
             alt="Google Logo"
             className="navbar__logo"
           />{" "}
-          <span>Classroom</span>
+          {/* <span>Classroom</span> */}
         </div>
         <div className="navbar__right">
           <IconButton
